@@ -27,3 +27,8 @@ Send to the challenge
 ```bash
 cat ./main.bin | /challenge/run
 ```
+
+Extract and send as one command
+```bash
+objcopy -O binary --only-section=.text main.o main.bin | cat ./main.bin | /challenge/run
+```
