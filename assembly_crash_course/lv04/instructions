@@ -1,0 +1,31 @@
+In this level you will be working with registers. You will be asked to modify
+or read from registers.
+
+We will now set some values in memory dynamically before each run. On each run
+the values will change. This means you will need to do some type of formulaic
+operation with registers. We will tell you which registers are set beforehand
+and where you should put the result. In most cases, its rax.
+
+
+
+Using your new knowledge, please compute the following:
+  f(x) = mx + b, where:
+    m = rdi
+    x = rsi
+    b = rdx
+
+Place the result into rax.
+
+Note: there is an important difference between mul (unsigned
+multiply) and imul (signed multiply) in terms of which
+registers are used. Look at the documentation on these
+instructions to see the difference.
+
+In this case, you will want to use imul.
+
+We will now set the following in preparation for your code:
+  rdi = 0x17a8
+  rsi = 0x111b
+  rdx = 0x1262
+
+Please give me your assembly in bytes (up to 0x1000 bytes):
