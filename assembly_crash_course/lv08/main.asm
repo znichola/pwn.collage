@@ -3,4 +3,8 @@ BITS 64
 section .text
     global _start
 _start:
-    mov ah, 0x42
+    mov rbx, rdi
+    mov al, bl
+
+    mov rbx, rsi
+    mov bx, dx
