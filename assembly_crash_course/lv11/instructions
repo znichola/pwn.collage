@@ -1,0 +1,17 @@
+Using only the following instructions:
+  and, or, xor
+
+Implement the following logic:
+  if x is even then
+    y = 1
+  else
+    y = 0
+
+where:
+  x = rdi
+  y = rax
+
+We will now set the following in preparation for your code:
+  rdi = 0x149448af
+
+Please give me your assembly in bytes (up to 0x1000 bytes):
