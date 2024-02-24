@@ -1,0 +1,7 @@
+Please perform the following:
+  Place the value stored in rax to 0x404000
+
+We will now set the following in preparation for your code:
+  rax = 0x1bdb37
+
+Please give me your assembly in bytes (up to 0x1000 bytes):
