@@ -1,0 +1,10 @@
+Please perform the following:
+  Set rax to the byte at 0x404000
+  Set rbx to the word at 0x404000
+  Set rcx to the double word at 0x404000
+  Set rdx to the quad word at 0x404000
+
+We will now set the following in preparation for your code:
+  [0x404000] = 0x877a8fd5248fd387
+
+Please give me your assembly in bytes (up to 0x1000 bytes):
